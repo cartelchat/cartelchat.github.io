@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartel Chat</title>
     <style>
+        /* Reset body margin and padding */
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
+            padding: 0;
         }
+
+        /* Ensure the image fills the entire viewport */
         img {
-            max-width: 100%;
-            max-height: 100%;
+            display: block;
+            width: 100vw; /* Full width of the viewport */
+            height: 100vh; /* Full height of the viewport */
+            object-fit: cover; /* Ensures the image covers the viewport */
         }
     </style>
 </head>
 <body>
-    <img src="assets/cartelchatpage.jpg" alt="Your Image">
+    <img src="assets/cartelchatpage.jpg" >
 </body>
 </html>
 
